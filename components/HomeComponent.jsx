@@ -13,6 +13,25 @@ export default function HomeComponent() {
                     </div>
                 </div>
             </div>
+             
+            <main className=" pt-96">
+            <div className="flex justify-center h-60 bg-black items-center">
+                <div className=" w-1/2 font-montserrat text-white rounded-xl ">
+                    <div className="flex justify-center text-2xl font-semibold ">
+                        <p>Conte com o apoio das</p>
+                        <p className="bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent pl-2">maiores empresas do país</p>
+                    </div>
+                    <div className="flex justify-center content-evenly">
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="bg-white">
+            </div>
+            </main>
+           
+           
 
         </>
     )
