@@ -9,18 +9,25 @@ module.exports = {
     extend: {
       backgroundColor:{
         'headerBack': '#292526',
+        'bbrancoDiferente': '#F9F9F9',
+        'bpretoDiferente': '#292526',
       },
       fontFamily: {
         'montserrat': ['Montserrat'],
         'lato': ['Lato'],
         'garamond': ['Garamond']
     },
+    borderColor:{
+      'llaranjaForte': '#FD6529',
+    },
       colors:{
-        'brancoDiferente:': '#F9F9F9',
+        'pretoDiferente': '#292526',
+        'brancoDiferente': '#F9F9F9',
         'laranjaForte': '#FD6529',
         'laranjaClaro': '#FC8844',
       },
       backgroundImage: {
+      
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
