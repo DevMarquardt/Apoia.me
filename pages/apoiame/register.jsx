@@ -1,5 +1,6 @@
 import HeaderComponent from '../../components/HeaderComponent'
 import RegisterComponent from '../../components/RegisterComponent'
+import FooterComponent from '@/components/FooterComponent'
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
       <main>
         <RegisterComponent />
       </main>
+      <FooterComponent/>
+
     </>
   )
 }
