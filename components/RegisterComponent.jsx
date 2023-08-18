@@ -2,14 +2,15 @@ export default function RegisterComponent() {
 
     return (
         <>
-
-            <div className="h-screen flex justify-center pt-48 ">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
+            
+            <div className="h-screen flex justify-center pt-48 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as1.ftcdn.net/v2/jpg/02/79/12/42/1000_F_279124266_QRp7wTZ8SOm3zwkWKXgle3XoXOKr2PGI.jpg")' }}>
                 <div className=" w-1/3 h-4/6 font-montserrat imagem text-white rounded-xl bg-pretoDiferente  font-semibold">
-                    <div className="flex justify-center text-4xl font-semibold pt-10">
+                    <div className="flex justify-center text-4xl font-semibold pt-5">
                         <p className="bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent ">Registrar-se</p>
                     </div>
-                    <div className="flex items-center p-4 flex-col ">
-                        <div class="relative h-11 w-3/5 min-w-[200px] flex justify-center">
+                    <div className="flex items-center p-4 flex-col  ">
+                        <div class="relative h-11 w-3/5 min-w-[200px] flex justify-center ">
                             <input
                                 class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-4 pb-1.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-llaranjaForte-500 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
                                 placeholder=" "
@@ -57,17 +58,12 @@ export default function RegisterComponent() {
                                 </a>
                             </p>
                         </div>
-                        <div className="pt-10">
-                            <button  class="transition duration-500 ease-in-out bg-white hover:bg-laranjaForte transform w-40 h-12 rounded-lg hr text-pretoDiferente">
+                            <button class="transition duration-500 ease-in-out bg-white hover:bg-laranjaForte transform w-40 h-12 rounded-lg hr text-pretoDiferente">
                                 <a href="login">Registrar</a>
                             </button>
-                        </div>
-
-
                     </div>
                 </div>
-            </div>
-
+                </div>
 
         </>
     )

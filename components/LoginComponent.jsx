@@ -2,7 +2,8 @@ export default function LoginComponent() {
     return (
         <>
 
-            <div className="h-screen flex justify-center pt-48 ">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
+            <div className="h-screen flex justify-center pt-48 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as1.ftcdn.net/v2/jpg/02/79/12/42/1000_F_279124266_QRp7wTZ8SOm3zwkWKXgle3XoXOKr2PGI.jpg")' }}>
                 <div className=" w-1/3 h-4/6 font-montserrat imagem text-white rounded-xl bg-pretoDiferente  font-semibold">
                     <div className="flex justify-center text-4xl font-semibold pt-10">
                         <p className="bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent ">Entrar</p>
@@ -44,15 +45,15 @@ export default function LoginComponent() {
                         <div>
                             <p class="text-sm text-blue-gray-500 font-normal">
                                 Ainda não possui uma conta?{" "}
-                                <a href="#" class="text-llaranjaForte-500 hover:hover:no-underline hover:text-laranjaForte hover:duration-300">
+                                <a href="register" class="text-llaranjaForte-500 hover:hover:no-underline hover:text-laranjaForte hover:duration-300">
                                     Registrar-se
                                 </a>
                             </p>
                         </div>
                         <br />
-                        
+
                         <div className="pt-10">
-                            <button  class="transition duration-500 ease-in-out bg-white hover:bg-laranjaForte transform w-40 h-12 rounded-lg hr text-pretoDiferente">
+                            <button class="transition duration-500 ease-in-out bg-white hover:bg-laranjaForte transform w-40 h-12 rounded-lg hr text-pretoDiferente">
                                 Entrar
                             </button>
                         </div>

@@ -4,7 +4,7 @@ import HomeComponent from '../components/HomeComponent'
 export default function Home() {
   return (
     <>
-      <main>
+      <main >
         <HeaderComponent />
         <HomeComponent />
       </main>
