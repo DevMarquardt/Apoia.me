@@ -8,6 +8,7 @@ export default function AboutUs() {
       <header>
         <HeaderComponent />
       </header>
+<<<<<<< HEAD
 
       <main>
         <AboutComponent />
@@ -16,6 +17,15 @@ export default function AboutUs() {
       <footer>
         <FooterComponent />
       </footer>
+=======
+      <main>
+        <AboutComponent />
+      </main>
+      <footer>
+        <FooterComponent />
+      </footer>
+
+>>>>>>> facaf133b90f3748f45e902b58b6ca0732b671da
     </>
   )
 }

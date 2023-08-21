@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <header>
+<<<<<<< HEAD
         <HeaderComponent />
       </header>
 
@@ -16,6 +17,18 @@ export default function Home() {
       <footer>
         <FooterComponent />
       </footer>
+=======
+      <HeaderComponent />
+      </header>
+      <main>
+        <LoginComponent />
+      </main>
+      <footer>
+      <FooterComponent />
+      </footer>
+
+
+>>>>>>> facaf133b90f3748f45e902b58b6ca0732b671da
     </>
   )
 }

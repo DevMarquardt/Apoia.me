@@ -8,7 +8,10 @@ export default function Home() {
       <header>
         <HeaderComponent />
       </header>
+<<<<<<< HEAD
 
+=======
+>>>>>>> facaf133b90f3748f45e902b58b6ca0732b671da
       <main>
         <RegisterComponent />
       </main>
@@ -16,7 +19,10 @@ export default function Home() {
         <FooterComponent />
       </footer>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> facaf133b90f3748f45e902b58b6ca0732b671da
     </>
   )
 }

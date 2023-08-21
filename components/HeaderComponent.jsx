@@ -10,7 +10,11 @@ export default function HeaderComponent() {
                         <a href="about" className=" hover:no-underline hover:text-laranjaForte hover:duration-300"> Sobre nós</a>
                         <a href="metas" className=" hover:no-underline hover:text-laranjaForte hover:duration-300"> Metas</a>
                         <button className="bg-gradient-to-r from-laranjaForte to-laranjaClaro w-32 h-8 rounded-lg hover:scale-110 transition duration-300 ease-in-out">
+<<<<<<< HEAD
                             <a href="register">Quero doar</a>
+=======
+                            <a href="http://localhost:3000/register">Quero doar </a>
+>>>>>>> facaf133b90f3748f45e902b58b6ca0732b671da
                         </button>
                     </ul>
                 </nav>
