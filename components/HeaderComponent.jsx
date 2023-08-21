@@ -9,9 +9,8 @@ export default function HeaderComponent() {
                         <a href="home" className=" hover:no-underline hover:text-laranjaForte hover:duration-300"> Início</a>
                         <a href="about" className=" hover:no-underline hover:text-laranjaForte hover:duration-300"> Sobre nós</a>
                         <a href="metas" className=" hover:no-underline hover:text-laranjaForte hover:duration-300"> Metas</a>
-                        <a href="parceiros" className=" hover:no-underline hover:text-laranjaForte hover:duration-300"> Parceiros</a>
                         <button className="bg-gradient-to-r from-laranjaForte to-laranjaClaro w-32 h-8 rounded-lg hover:scale-110 transition duration-300 ease-in-out">
-                            <a href="http://localhost:3000/apoiame/register">Quero doar</a>
+                            <a href="http://localhost:3000/register">Quero doar </a>
                         </button>
                     </ul>
                 </nav>

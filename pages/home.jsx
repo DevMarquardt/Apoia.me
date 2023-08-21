@@ -1,15 +1,20 @@
-import FooterComponent from '@/components/FooterComponent'
 import HeaderComponent from '../components/HeaderComponent'
 import HomeComponent from '../components/HomeComponent'
+import FooterComponent from '../components/FooterComponent'
 
 export default function Home() {
   return (
     <>
-      <main >
+      <header>
         <HeaderComponent />
+      </header>
+      <main>
         <HomeComponent />
-        <FooterComponent/>
       </main>
+      <footer>
+        <FooterComponent />
+      </footer>
+
     </>
   )
 }
