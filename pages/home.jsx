@@ -8,7 +8,6 @@ export default function Home() {
       <header>
         <HeaderComponent />
       </header>
-<<<<<<< HEAD
       
       <main>
         <HomeComponent />
@@ -17,15 +16,7 @@ export default function Home() {
       <footer>
         <FooterComponent />
       </footer>
-=======
-      <main>
-        <HomeComponent />
-      </main>
-      <footer>
-        <FooterComponent />
-      </footer>
 
->>>>>>> facaf133b90f3748f45e902b58b6ca0732b671da
     </>
   )
 }
