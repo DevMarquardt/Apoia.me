@@ -20,10 +20,25 @@ export default function HeaderComponent() {
         <>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
 
-            <header className="flex fixed w-screen bg-headerBack h-16 items-center md:justify-center font-montserrat">
+            <header className="flex fixed w-screen bg-headerBack h-24 md:justify-center font-montserrat">
                 <nav className={`text-lg font-semibold text-white ${sidebarOpen ? 'hidden' : 'block'}`}>
                     <ul className=" space-x-10">
-
+                        <div className="flex justify-center visible md:invisible  font-semibold ">
+                            <a href="home" className="text-3xl text-white">Apoia</a>
+                            <a href="home" className="text-3xl bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent"> .me</a>
+                        </div>
+                        <button
+                            onClick={toggleSidebar}
+                            className="md:hidden bg-gradient-to-r from-laranjaForte to-laranjaClaro w-10 h-10 rounded-lg flex items-center justify-center mr-4"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-10 w-10 text-white">
+                                {sidebarOpen ? (
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                ) : (
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                                )}
+                            </svg>
+                        </button>
                         <a href="home" className="invisible md:visible text-3xl bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent"> .me</a>
                         <a href="home" className="invisible md:visible hover:no-underline hover:text-laranjaForte hover:duration-300"> Início</a>
                         <a href="about" className="invisible md:visible hover:no-underline hover:text-laranjaForte hover:duration-300"> Sobre nós</a>
@@ -34,22 +49,8 @@ export default function HeaderComponent() {
                     </ul>
                 </nav>
 
-                <div className=" visible md:invisible flex justify-center font-semibold">
-                    <a href="home" className="text-3xl text-white">Apoia</a>
-                    <a href="home" className="text-3xl bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent"> .me</a>
-                </div>
-                <button
-                    onClick={toggleSidebar}
-                    className="md:hidden bg-gradient-to-r from-laranjaForte to-laranjaClaro w-10 h-10 rounded-lg flex items-center justify-center mr-4"
-                >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-10 w-10 text-white">
-                        {sidebarOpen ? (
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                        ) : (
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                        )}
-                    </svg>
-                </button>
+
+
             </header>
 
             {sidebarOpen && (
