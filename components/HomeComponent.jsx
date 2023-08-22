@@ -20,8 +20,8 @@ export default function HomeComponent() {
                     </div>
 
                 </div>
-                <div >
-                    <div className=" h-[98vh] bg-black">
+                <div className="">
+                    <div className=" h-[178vh] bg-black">
                         <div className="h-full lg:flex justify-evenly pt-10 px-20">
                             <div className="pb-4 flex flex-col items-center w-full mb-4 pt-4 bg-trasparent lg:w-[20%] lg:h-[80%] rounded-xl border-2 border-laranjaForte ">
                                 <div className=" w-4/5 h-40 mb-4 bg-brancoDiferente lg:w-[80%] lg:h-[45%] rounded-lg">
