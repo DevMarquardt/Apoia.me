@@ -5,7 +5,11 @@ export default function HomeComponent() {
             <div className=" bg-cover h-screen bg-center bg-no-repeat pt-[120px] flex justify-center" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as1.ftcdn.net/v2/jpg/02/79/12/42/1000_F_279124266_QRp7wTZ8SOm3zwkWKXgle3XoXOKr2PGI.jpg")' }}>
                     <div className="w-1/2 font-montserrat text-white rounded-xl">
                         <div className="flex justify-center md:flex flex-col items-center pt-24">
-                            <p className="text-3xl pb-4">Se junte a nós e ajude o próximo!</p>
+                            <div className="w-[300px] flex flex-col items-center md:w-full text-3xl pb-4 md:flex-row gap-3 justify-center">
+                                <p>Se junte a nós</p> <p>e</p> <p>ajude o próximo!</p>
+
+                            </div>
+                            <p>Não sei oq colocar a mais aq no meio</p>
                             <button className="bg-gradient-to-r from-laranjaForte to-laranjaClaro w-32 h-8 rounded-lg hover:scale-110 transition duration-300 ease-in-out">
                                 <a href="metas">Metas</a>
                             </button>
@@ -13,8 +17,9 @@ export default function HomeComponent() {
                     </div>
 
                 </div>
-                <div className="">
-                    <div className=" mb:h-[90vh] bg-black">
+                <div>
+                    <div className="h-[90%] mb:h-[100vh] bg-black pb-4 font-montserrat">
+                        <p className="text-3xl md:text-5xl text-white flex justify-center pt-10">Principais vaquinhas</p>
                         <div className="h-full lg:flex justify-evenly pt-10 px-20 ">
                             <div className="pb-4 flex flex-col items-center w-full mb-4 pt-4 bg-trasparent lg:w-[360px] lg:h-[700px] rounded-xl border-2 border-laranjaForte">
                                 <div className=" w-4/5 h-40 mb-4 bg-brancoDiferente lg:w-[80%] lg:h-[45%] rounded-lg">
@@ -32,7 +37,7 @@ export default function HomeComponent() {
                                             <a href="login" className="font-semibold ">Saiba mais</a>
                                         </button>
                             </div>
-                            <div className="pb-4 flex flex-col items-center w-full mb-4 pt-4 bg-trasparent lg:w-[360px] lg:h-[700px] rounded-xl border-2 border-laranjaForte ">
+                            <div className="pb-4 flex flex-col items-center w-full  pt-4 bg-trasparent lg:w-[360px] lg:h-[700px] rounded-xl border-2 border-laranjaForte ">
                                 <div className=" w-4/5 h-40 mb-4 bg-brancoDiferente lg:w-[80%] lg:h-[45%] rounded-lg">
 
                                 </div>

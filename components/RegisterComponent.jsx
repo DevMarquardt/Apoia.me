@@ -3,9 +3,9 @@ export default function RegisterComponent() {
     return (
         <>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
-            <div className="flex justify-center pt-24 bg-cover h-screen bg-center bg-no-repeat" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as1.ftcdn.net/v2/jpg/02/79/12/42/1000_F_279124266_QRp7wTZ8SOm3zwkWKXgle3XoXOKr2PGI.jpg")' }}>
+            <div className=" flex justify-center pt-24 bg-cover h-screen bg-center bg-no-repeat" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as1.ftcdn.net/v2/jpg/02/79/12/42/1000_F_279124266_QRp7wTZ8SOm3zwkWKXgle3XoXOKr2PGI.jpg")' }}>
                 <div className="w-[320px] xl:pb-10 xl:w-[30%]">
-                    <div className="font-montserrat text-white rounded-xl bg-pretoDiferente  font-semibold ">
+                    <div className="font-montserrat text-white rounded-xl bg-pretoDiferente font-semibold mt-[25%]">
                         <div className="flex justify-center text-4xl font-semibold pt-5 ">
                                         <p className="bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent ">Registrar-se</p>
                                     </div>
@@ -64,7 +64,7 @@ export default function RegisterComponent() {
                                         <div>
                                             <p class="text-sm text-blue-gray-500 font-normal">
                                                 Já possui uma conta?{" "}
-                                                <a href="login" class="text-llaranjaForte-500 hover:hover:no-underline hover:text-laranjaForte hover:duration-300">
+                                                <a href="login" class="text-llaranjaForte-500 underline hover:hover:no-underline hover:text-laranjaForte hover:duration-300">
                                                     Entrar
                                                 </a>
                                             </p>
