@@ -9,7 +9,6 @@ export default function HomeComponent() {
                                 <p>Se junte a nós</p> <p>e</p> <p>ajude o próximo!</p>
 
                             </div>
-                            <p>Não sei oq colocar a mais aq no meio</p>
                             <button className="bg-gradient-to-r from-laranjaForte to-laranjaClaro w-32 h-8 rounded-lg hover:scale-110 transition duration-300 ease-in-out">
                                 <a href="metas">Metas</a>
                             </button>
