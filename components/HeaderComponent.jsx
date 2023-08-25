@@ -1,26 +1,16 @@
-
+import React, { useState } from 'react';
 
 export default function HeaderComponent() {
-    var sidebarOpen = false;
-    
-    function openSideBAr() {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
 
-        sidebarOpen = !sidebarOpen;
-
-        if (sidebarOpen) {
-            document.querySelector("#__next > header > nav").classList.remove('invisible');
-            document.querySelector("#__next > header > nav").classList.add('visible');
-        }
-        else{
-            document.querySelector("#__next > header > nav").classList.add('invisible');
-            document.querySelector("#__next > header > nav").classList.remove('visible');
-        }
-    }
+    const toggleSidebar = () => {
+        setSidebarOpen(!sidebarOpen);
+    };
 
     return (
         <>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
-            <header className="w-full h-[6rem] bg-[#292526] font-montserrat fixed" id="header">
+            <header className="w-full h-[6rem] bg-[#292526] font-montserrat fixed shadow-2xl" id="header">
 
                 <nav className="h-full bg-[#292526]">
                     <div className="pl-8 text-3xl h-full text-white flex  items-center w-full justify-center">
@@ -32,7 +22,7 @@ export default function HeaderComponent() {
                         <div className="h-full bg-[#292526] md:flex">
                             <div className="flex justify-end">
                                 <button
-                                    onClick={ () => openSideBAr()}
+                                    onClick={ () => toggleSidebar()}
                                     className="md:invisible bg-gradient-to-r from-[#FD6529] to-[#FC8844] w-10 h-10 rounded-lg flex items-center mr-28 mt-[25.5px] md:mt-0"
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-10 w-10 text-white">
@@ -48,7 +38,7 @@ export default function HeaderComponent() {
                                 <a href="about" className="hover:no-underline hover:text-[#FD6529] hover:duration-300">Sobre nós</a>
                                 <a href="metas" className="hover:no-underline hover:text-[#FD6529] hover:duration-300">Metas</a>
                                 <button className=" invisible md:visible bg-gradient-to-r from-[#FD6529] to-[#FC8844] w-44 h-12 rounded-lg hover:scale-110 transition duration-300 ease-in-out">
-                                    <a href="register">Quero dar</a>
+                                    <a href="register">Quero doar</a>
                                 </button>
                             </div>
                         </div>
@@ -57,20 +47,23 @@ export default function HeaderComponent() {
                 </nav>
             </header>
 
-                <nav className="invisible md:invisible font-montserrat bg-headerBack h-[30%] w-full fixed top-0 left-0 transform translate-x-0 transition duration-300 ease-in-out" style={{zIndex:999}}>
-                    {/* ... conteúdo da sidebar ... */}
-                    <ul className="flex flex-col justify-end items-center pt-32 text-xl font-bold px-4">
-                        <li>
-                            <a href="home" className="text-white hover:text-laranjaForte  mb-2">Item 1</a>
-                        </li>
-                        <li>
-                            <a href="about" className="text-white hover:text-laranjaForte  mb-2">Item 2</a>
-                        </li>
-                        <li>
-                            <a href="metas" className="text-white hover:text-laranjaForte  mb-2">Item 3</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav
+                className={`font-montserrat bg-headerBack h-[30%] w-full fixed transition-transform duration-300 ease-linear ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
+                style={{ zIndex: 999 }}
+            >
+                <ul className="flex flex-col justify-end items-center pt-32 text-xl font-bold px-4 ">
+                    <li>
+                        <a href="home" className="text-white hover:text-laranjaForte  mb-2">Início</a>
+                    </li>
+                    <li>
+                        <a href="about" className="text-white hover:text-laranjaForte  mb-2">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="metas" className="text-white hover:text-laranjaForte  mb-2">Metas</a>
+                    </li>
+                </ul>
+            </nav>
+                
 
         </>
     );

@@ -9,8 +9,8 @@ export default function HomeComponent() {
                                 <p>Se junte a nós</p> <p>e</p> <p>ajude o próximo!</p>
 
                             </div>
-                            <button className="bg-gradient-to-r from-laranjaForte to-laranjaClaro w-32 h-8 rounded-lg hover:scale-110 transition duration-300 ease-in-out">
-                                <a href="metas">Metas</a>
+                            <button className="bg-gradient-to-r from-laranjaForte to-laranjaClaro w-40 h-12 md:text-4xl md:w-[400px] md:h-[100px] rounded-lg hover:scale-110 transition duration-300 ease-in-out">
+                                <a href="metas">Começar a ajudar</a>
                             </button>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ export default function HomeComponent() {
                     <div className="h-[90%] mb:h-[100vh] bg-black pb-4 font-montserrat">
                         <p className="text-3xl md:text-5xl text-white flex justify-center pt-10">Principais vaquinhas</p>
                         <div className="h-full lg:flex justify-evenly pt-10 px-20 ">
-                            <div className="pb-4 flex flex-col items-center w-full mb-4 pt-4 bg-trasparent lg:w-[360px] lg:h-[700px] rounded-xl border-2 border-laranjaForte">
+                            <div className="pb-4 flex flex-col items-center w-full mb-4 pt-4 bg-trasparent lg:w-[360px] lg:h-[590px] rounded-xl border-2 border-laranjaForte">
                                 <div className=" w-4/5 h-40 mb-4 bg-brancoDiferente lg:w-[80%] lg:h-[45%] rounded-lg">
 
                                 </div>
@@ -28,7 +28,7 @@ export default function HomeComponent() {
                                             <a href="login" className="font-semibold ">Saiba mais</a>
                                         </button>
                             </div>
-                            <div className="pb-4 flex flex-col items-center w-full mb-4 pt-4 bg-trasparent lg:w-[360px] lg:h-[700px] rounded-xl border-2 border-laranjaForte ">
+                            <div className="pb-4 flex flex-col items-center w-full mb-4 pt-4 bg-trasparent lg:w-[360px] lg:h-[590px] rounded-xl border-2 border-laranjaForte ">
                                 <div className=" w-4/5 h-40 mb-4 bg-brancoDiferente lg:w-[80%] lg:h-[45%] rounded-lg">
 
                                 </div>
@@ -36,7 +36,7 @@ export default function HomeComponent() {
                                             <a href="login" className="font-semibold ">Saiba mais</a>
                                         </button>
                             </div>
-                            <div className="pb-4 flex flex-col items-center w-full  pt-4 bg-trasparent lg:w-[360px] lg:h-[700px] rounded-xl border-2 border-laranjaForte ">
+                            <div className="pb-4 flex flex-col items-center w-full  pt-4 bg-trasparent lg:w-[360px] lg:h-[590px] rounded-xl border-2 border-laranjaForte ">
                                 <div className=" w-4/5 h-40 mb-4 bg-brancoDiferente lg:w-[80%] lg:h-[45%] rounded-lg">
 
                                 </div>
