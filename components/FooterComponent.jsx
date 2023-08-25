@@ -4,7 +4,7 @@ export default function FooterComponent() {
 
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
 
-            <footer class=" bg-pretoDiferente font-montserrat ">
+            <footer class=" bg-pretoDiferente font-montserrat">
                 <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                     <div class="flex flex-col items-center sm:flex-row sm:justify-between">
                         <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">

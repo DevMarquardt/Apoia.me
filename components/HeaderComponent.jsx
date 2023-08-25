@@ -48,7 +48,7 @@ export default function HeaderComponent() {
             </header>
 
             <nav
-                className={`font-montserrat bg-headerBack h-[35%] w-full fixed transition-transform duration-300 ease-linear ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
+                className={`font-montserrat bg-headerBack h-[20rem] w-full fixed transition-transform duration-300 ease-linear ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
                 style={{ zIndex: 999 }}
             >
                 <ul className="flex flex-col justify-end items-center pt-32 text-xl font-bold px-4 text-white ">
