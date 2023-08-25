@@ -48,18 +48,23 @@ export default function HeaderComponent() {
             </header>
 
             <nav
-                className={`font-montserrat bg-headerBack h-[30%] w-full fixed transition-transform duration-300 ease-linear ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
+                className={`font-montserrat bg-headerBack h-[35%] w-full fixed transition-transform duration-300 ease-linear ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
                 style={{ zIndex: 999 }}
             >
-                <ul className="flex flex-col justify-end items-center pt-32 text-xl font-bold px-4 ">
+                <ul className="flex flex-col justify-end items-center pt-32 text-xl font-bold px-4 text-white ">
                     <li>
-                        <a href="home" className="text-white hover:text-laranjaForte  mb-2">Início</a>
+                        <a href="home" className=" hover:text-laranjaForte  mb-2">Início</a>
                     </li>
                     <li>
-                        <a href="about" className="text-white hover:text-laranjaForte  mb-2">Sobre nós</a>
+                        <a href="about" className=" hover:text-laranjaForte  mb-2">Sobre nós</a>
                     </li>
                     <li>
-                        <a href="metas" className="text-white hover:text-laranjaForte  mb-2">Metas</a>
+                        <a href="metas" className=" hover:text-laranjaForte  mb-2">Metas</a>
+                    </li>
+                    <li>
+                    <button className="bg-gradient-to-r from-[#FD6529] to-[#FC8844] w-44 h-12 rounded-lg hover:scale-110 transition duration-300 ease-in-out">
+                                    <a href="register">Quero doar</a>
+                                </button>
                     </li>
                 </ul>
             </nav>
