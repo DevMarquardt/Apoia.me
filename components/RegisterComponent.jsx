@@ -6,7 +6,7 @@ export default function RegisterComponent() {
 
             <div className=" flex justify-center items-center bg-cover h-screen bg-center " style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as1.ftcdn.net/v2/jpg/02/79/12/42/1000_F_279124266_QRp7wTZ8SOm3zwkWKXgle3XoXOKr2PGI.jpg")' }}>
                 <div class="absolute  inset-0 backdrop-blur-md"></div>
-                <div className="w-[320px] xl:pb-10 xl:w-[30%] relative z-10 " >
+                <div className="w-[320px] xl:w-[30%] relative " >
                     <div className="font-montserrat text-white rounded-xl bg-pretoDiferente font-semibold mt-[25%]" >
                         <div className="flex justify-center text-4xl font-semibold pt-5 ">
                             <p className="bg-gradient-to-r from-laranjaForte to-laranjaClaro bg-clip-text text-transparent ">Registrar-se</p>

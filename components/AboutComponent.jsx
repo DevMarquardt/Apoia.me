@@ -36,7 +36,7 @@ export default function AboutComponent() {
                         <div className="flex justify-center md:flex flex-col items-center ">
                             <div className="w-full text-3xl">
                                 <div className="flex flex-col items-center justify-center"  >
-                                    <p className="pt-10">Nosso time desenvolvimento</p>
+                                    <p className="pt-10">Nosso time de desenvolvimento</p>
                                 </div>
                                 <div className="pt-10 flex justify-evenly ">
                                     <div className="flex flex-col items-center">
